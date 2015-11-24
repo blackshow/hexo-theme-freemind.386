@@ -1,19 +1,20 @@
 <div class="pagination">
-<ul class="pagination">
-	 <% if (page.prev || page.next) { %>
-		<% if (page.prev){ %>		
-    	<li class="prev"><a href="<%- config.root %><%- page.prev.path %>" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i><%= __('prev') %></a></li>
-  		<% } else { %>
-          <li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i><%= __('prev') %></a></li>
-        <% } %>
 
-        <li><a href="<%- config.root %><%- theme.menu[0].url %>"><i class="fa fa-archive"></i>Archive</a></li>
+    <% if (page.prev || page.next) { %>
+    <% if (page.prev){ %>
+    <a href="<%- config.root %><%- page.prev.path %>" type="button" class="btn btn-default"><i
+                class="fa fa-arrow-circle-o-left"></i> <%= __('prev') %></a>
+    <% } else { %>
+    <a type="button" class="btn btn-default disabled"><i class="fa fa-arrow-circle-o-left"></i><%= __('prev') %></a>
+    <% } %>
 
-		<% if (page.next){ %>
-		   <li class="next"><a href="<%- config.root %><%- page.next.path %>" class="alignright next"><%= __('next') %><i class="fa fa-arrow-circle-o-right"></i></a></li>         
-        <% } else { %>
-          <li class="next disabled"><a><%= __('next') %><i class="fa fa-arrow-circle-o-right"></i></a></li>
-        <% } %>
-	<% }  %>
-</ul>
+    <a href="<%- config.root %>" type="button" class="btn btn-default"><i class="fa fa-home"></i>Home</a>
+    <% if (page.next){ %>
+    <a href="<%- config.root %><%- page.next.path %>" type="button" class="btn btn-default "><%= __('next') %><i
+                class="fa fa-arrow-circle-o-right"></i></a>
+    <% } else { %>
+    <a type="button" class="btn btn-default disabled"><%= __('next') %><i class="fa fa-arrow-circle-o-right"></i></a>
+    <% } %>
+
+    <% } %>
 </div>

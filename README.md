@@ -1,13 +1,11 @@
-Hexo-Theme-Freemind
+Hexo-Theme-Freemind.386
 ===
 
 ![screenshots](http://wzpan.github.io/hexo-theme-freemind/images/screenshots.png)
 
 Freemind aims at fully taking advantages of Bootstrap.
 
-* [Demo](http://wzpan.github.io/hexo-theme-freemind/)
-* [Q&A](http://wzpan.github.io/hexo-theme-freemind/2014/03/16/qna/)
-* [Tag Plugins](http://wzpan.github.io/hexo-theme-freemind/2014/03/16/tag-plugins/)
+* [Demo](http://blackshow.me)
 * [Readme in Chinese](http://hahack.com/codes/hexo-theme-freemind/)
 
 ## Requirements ##
@@ -30,7 +28,7 @@ Freemind aims at fully taking advantages of Bootstrap.
 1) install theme:
 
 ``` sh
-$ git clone https://github.com/wzpan/hexo-theme-freemind.git themes/freemind
+$ git clone git@github.com:blackshow/hexo-theme-freemind.386.git
 ```
 
 2) install [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap) (*optional*):
@@ -177,11 +175,8 @@ toc: true
 
 This theme is provided under [MIT License](http://opensource.org/licenses/MIT).
 
-## People Using Freemind ##
-
-see [Examples](https://github.com/wzpan/freemind/wiki/Examples).
 
 ## Credits ##
 
-* The theme is built based on [Twitter-Bootstrap 3.1.1](getbootstrap.com/3.1.1/);
+* The theme is built based on [Freemind](http://wzpan.github.io/hexo-theme-freemind/) and [BOOTSTRA.386](http://kristopolous.github.io/BOOTSTRA.386/);
 * The beautiful icons are from [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/).

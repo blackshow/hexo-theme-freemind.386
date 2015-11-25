@@ -33,6 +33,7 @@
 	<% if(item.toc){ %>
 	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
 	   <div id="toc" class="toc collapse in">
+		   <span class="toc-title">Contents</span>
 			<%- toc(item.content, {class: "toc-article", list_number:false}) %>
 		</div>
 	<% } %>

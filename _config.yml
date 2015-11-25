@@ -20,23 +20,23 @@ menu:
 
 links:
   - title: Freemind
-    url: https://github.com/wzpan/freemind/
+    url: https://github.com/wzpan/hexo-theme-freemind
     intro: "Freemind's Github repository."
     icon: "fa fa-github"
   - title: BOOTSTRA.386
-    url: https://github.com/wzpan/freemind/
+    url: https://github.com/kristopolous/BOOTSTRA.386
     intro: "BOOTSTRA.386's Github repository."
     icon: "fa fa-github"
   - title: Freemind.386
-    url: https://github.com/wzpan/freemind/
+    url: https://github.com/blackshow/hexo-theme-freemind.386
     intro: "Freemind.386's Github repository."
     icon: "fa fa-github"
   - title: "My Github"
-    url: http://www.github.com/wzpan
+    url: http://www.github.com/blackshow
     intro: "My Github account."
     icon: "fa fa-github"
   # - title: "My LinkedIn"
-  #   url: http://www.linkedin.com/in/hahack
+  #   url: http://www.linkedin.com/in/xxx
   #   intro: "My Linkin account."
   #   icon: "fa fa-linkedin"
 

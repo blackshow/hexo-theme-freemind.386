@@ -1,12 +1,12 @@
 Hexo-Theme-Freemind.386
 ===
 
-![screenshots](http://wzpan.github.io/hexo-theme-freemind/images/screenshots.png)
+![screenshot](http://7xofqj.com1.z0.glb.clouddn.com/free386screenshot.png)
 
 Freemind aims at fully taking advantages of Bootstrap.
 
 * [Demo](http://blackshow.me)
-* [Readme in Chinese](http://hahack.com/codes/hexo-theme-freemind/)
+* [Readme in Chinese](http://www.blackshow.me/2015/11/25/hexo-theme-freemind-386-readme-cn/)
 
 ## Requirements ##
 
@@ -67,12 +67,12 @@ Note that only About page can be created in that way.
 
 ## Enable ##
 
-Modify `theme` setting in your `_config.yml` to `freemind`.
+Modify `theme` setting in your `_config.yml` to `freemind.386`.
 
 ## Update ##
 
 ``` sh
-$ cd themes/freemind
+$ cd themes/freemind.386
 $ git pull
 ```
 
@@ -101,11 +101,11 @@ menu:
 
 links:
   - title: My Github
-    url: http://www.github.com/wzpan
+    url: http://www.github.com/blackshow
     intro: My Github account.
     icon: fa fa-github
   - title: My LinkedIn
-    url: http://www.linkedin.com/in/hahack
+    url: http://www.linkedin.com/in/blackshow
     intro: My Linkin account.
     icon: fa fa-linkedin
 

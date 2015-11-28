@@ -1,12 +1,12 @@
 Hexo-Theme-Freemind.386
 ===
 
-![screenshots](http://wzpan.github.io/hexo-theme-freemind/images/screenshots.png)
+![screenshot](http://7xofqj.com1.z0.glb.clouddn.com/free386screenshot.png)
 
-Freemind aims at fully taking advantages of Bootstrap.
+Freemind.386 aims at fully taking advantages of Bootstrap.
 
 * [Demo](http://blackshow.me)
-* [Readme in Chinese](http://hahack.com/codes/hexo-theme-freemind/)
+* [Readme in Chinese](http://www.blackshow.me/2015/11/25/hexo-theme-freemind-386-readme-cn/)
 
 ## Requirements ##
 
@@ -45,7 +45,7 @@ $ npm install hexo-generator-search --save
 
 4) Create pages
 
-Freemind offers you the customized Categories, Tags and About pages. But you need to manually create these page at your 'source' folder.
+Freemind.386 offers you the customized Categories, Tags and About pages. But you need to manually create these page at your 'source' folder.
 
 For example, to create a `Categories` page, you may create a `index.html` file at `source/categories/` folder with the following contents:
 
@@ -67,12 +67,12 @@ Note that only About page can be created in that way.
 
 ## Enable ##
 
-Modify `theme` setting in your `_config.yml` to `freemind`.
+Modify `theme` setting in your `_config.yml` to `freemind.386`.
 
 ## Update ##
 
 ``` sh
-$ cd themes/freemind
+$ cd themes/freemind.386
 $ git pull
 ```
 
@@ -101,11 +101,11 @@ menu:
 
 links:
   - title: My Github
-    url: http://www.github.com/wzpan
+    url: http://www.github.com/blackshow
     intro: My Github account.
     icon: fa fa-github
   - title: My LinkedIn
-    url: http://www.linkedin.com/in/hahack
+    url: http://www.linkedin.com/in/blackshow
     intro: My Linkin account.
     icon: fa fa-linkedin
 
@@ -152,7 +152,7 @@ disqus_shortname:
 
 ## Front-Matter ##
 
-There are some new front-matter settings in Freemind that you can use to decorate your articles.
+There are some new front-matter settings in Freemind.386 that you can use to decorate your articles.
 
 * **description** - a short description about the articles that will be display at the top of the post
 * **feature** - sets a feature image that will be show at the index page

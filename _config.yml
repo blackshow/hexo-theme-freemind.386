@@ -17,6 +17,10 @@ menu:
     url: about
     intro: "About me."
     # icon: "fa fa-user"
+  - title: RSS
+    url: atom.xml
+    intro: "Subscribe me."
+    # icon: "fa fa-user"
 
 links:
   - title: Freemind
@@ -51,7 +55,6 @@ rss:
 fancybox: true
 favicon: favicon.png
 duoshuo_shortname:
-disqus_shortname: blackshow
 
 
 # Analytics

@@ -6,14 +6,20 @@
 	<% } %>
 <% } else { %>
 	<% if (index) { %>
-	<!-- display as entry -->	
+	<!-- display as entry -->
+<div class="row">
+	<div class="col-md-8">
 		<h3 class="title">
-			<div class="date"> <%= item.date.format(config.date_format) %> </div>
-			<a href="<%- config.root %><%- item.path %>" <% if(item.description) { %>title="<%= item.description %>"<% } %>><%= item.title %></a>						
+			<a href="<%- config.root %><%- item.path %>" <% if(item.description) { %>title="<%= item.description %>"<% } %>><%= item.title %></a>
 		</h3>
+		</div>
+	<div class="col-md-4">
+		<div class="date">post @ <%= item.date.format(config.date_format) %>  </div>
+		</div>
+	</div>
 	<% } else { %>
-		<div class="page-header">		
+		<div class="page-header">
 			<h1><% if (item.icon) { %> <i class="<%= item.icon %>"></i> <% } %> <% if (item.page_title) { %><%= item.page_title %><% }else{ %><%= item.title %><% } %></h1>
-		</div>		
+		</div>
 	<% } %>
 <% } %>

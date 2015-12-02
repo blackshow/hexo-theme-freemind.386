@@ -1,0 +1,69 @@
+slogan: "Keep and carry on."
+
+menu:
+  - title: Archives
+    url: archives
+    intro: "All the articles."
+    # icon: "fa fa-archive"
+  - title: Categories
+    url: categories
+    intro: "All the categories."
+    # icon: "fa fa-folder"
+  - title: Tags
+    url: tags
+    intro: "All the tags."
+    # icon: "fa fa-tags"
+  - title: About
+    url: about
+    intro: "About me."
+    # icon: "fa fa-user"
+  - title: RSS
+    url: atom.xml
+    intro: "Subscribe me."
+    # icon: "fa fa-user"
+
+links:
+  - title: Freemind
+    url: https://github.com/wzpan/hexo-theme-freemind
+    intro: "Freemind's Github repository."
+    icon: "fa fa-github"
+  - title: BOOTSTRA.386
+    url: https://github.com/kristopolous/BOOTSTRA.386
+    intro: "BOOTSTRA.386's Github repository."
+    icon: "fa fa-github"
+  - title: Freemind.386
+    url: https://github.com/blackshow/hexo-theme-freemind.386
+    intro: "Freemind.386's Github repository."
+    icon: "fa fa-github"
+  - title: "My Github"
+    url: http://www.github.com/blackshow
+    intro: "My Github account."
+    icon: "fa fa-github"
+  # - title: "My LinkedIn"
+  #   url: http://www.linkedin.com/in/xxx
+  #   intro: "My Linkin account."
+  #   icon: "fa fa-linkedin"
+
+widgets:
+- search
+- category
+- tagcloud
+- recent_posts
+- links
+
+rss: 
+fancybox: true
+favicon: favicon.png
+duoshuo_shortname:
+
+
+# Analytics (change to yours)
+google_analytics:
+  enable: true
+  siteid: UA-70812759-1
+baidu_tongji:
+  enable: true
+  siteid: cb5448498d7169c668b07c2b255d62c1
+
+# search
+#swiftype_key: ZP2ZSuHgipSZfRyU8uTR

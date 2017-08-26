@@ -1,4 +1,4 @@
-slogan: "Keep and carry on."
+slogan: "segment fault (core dumped)"
 
 menu:
   - title: Archives
@@ -22,6 +22,9 @@ menu:
     intro: "Subscribe me."
     # icon: "fa fa-user"
 
+wether:
+  - city: Beijing
+
 links:
   - title: Freemind
     url: https://github.com/wzpan/hexo-theme-freemind
@@ -36,7 +39,7 @@ links:
     intro: "Freemind.386's Github repository."
     icon: "fa fa-github"
   - title: "My Github"
-    url: http://www.github.com/blackshow
+    url: http://www.github.com
     intro: "My Github account."
     icon: "fa fa-github"
   # - title: "My LinkedIn"
@@ -48,8 +51,10 @@ widgets:
 - search
 - category
 - tagcloud
+- wether
 - recent_posts
 - links
+
 
 rss: 
 fancybox: true
@@ -59,10 +64,10 @@ duoshuo_shortname:
 
 # Analytics (change to yours)
 google_analytics:
-  enable: true
+  enable: false
   siteid: UA-70812759-1
 baidu_tongji:
-  enable: true
+  enable: false
   siteid: cb5448498d7169c668b07c2b255d62c1
 
 # search

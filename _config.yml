@@ -59,8 +59,6 @@ widgets:
 rss: 
 fancybox: true
 favicon: favicon.png
-duoshuo_shortname:
-
 
 # Analytics (change to yours)
 google_analytics:

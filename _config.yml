@@ -1,4 +1,4 @@
-slogan: "segment fault (core dumped)"
+slogan: "Keep and carry on."
 
 menu:
   - title: Archives
@@ -39,7 +39,7 @@ links:
     intro: "Freemind.386's Github repository."
     icon: "fa fa-github"
   - title: "My Github"
-    url: http://www.github.com
+    url: http://www.github.com/blackshow
     intro: "My Github account."
     icon: "fa fa-github"
   # - title: "My LinkedIn"
@@ -62,10 +62,10 @@ favicon: favicon.png
 
 # Analytics (change to yours)
 google_analytics:
-  enable: false
+  enable: true
   siteid: UA-70812759-1
 baidu_tongji:
-  enable: false
+  enable: true
   siteid: cb5448498d7169c668b07c2b255d62c1
 
 # search

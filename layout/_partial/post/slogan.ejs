@@ -1,4 +1,8 @@
 <div class="slogan">
-      <i class="fa fa-heart blink-slow"></i>
-      <%= theme.slogan %>
+<% if (theme.show_slogan) { %>
+<% if (theme.show_heart) { %>
+		<i class="fa fa-heart blink-slow"></i>
+<% } %>
+		<%= theme.slogan %>
+<% } %>
 </div>    

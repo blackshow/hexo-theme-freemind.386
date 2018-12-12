@@ -1,5 +1,9 @@
 slogan: "Keep and carry on."
 
+show_heart: true
+
+show_slogan: true
+
 menu:
   - title: Archives
     url: archives

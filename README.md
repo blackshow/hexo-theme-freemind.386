@@ -1,7 +1,7 @@
 Hexo-Theme-Freemind.386
 ===
 
-![screenshot](http://7xofqj.com1.z0.glb.clouddn.com/free386screenshot.png)
+![screenshot](/free386-screenshot.png)
 
 Freemind.386 aims at fully taking advantages of Bootstrap.
 

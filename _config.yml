@@ -26,6 +26,9 @@ menu:
     intro: "Subscribe me."
     # icon: "fa fa-user"
 
+wether:
+  - city: Beijing
+
 links:
   - title: Freemind
     url: https://github.com/wzpan/hexo-theme-freemind
@@ -52,14 +55,14 @@ widgets:
 - search
 - category
 - tagcloud
+- wether
 - recent_posts
 - links
+
 
 rss: 
 fancybox: true
 favicon: favicon.png
-duoshuo_shortname:
-
 
 # Analytics (change to yours)
 google_analytics:

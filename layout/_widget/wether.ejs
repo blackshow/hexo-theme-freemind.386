@@ -1,0 +1,10 @@
+<% if (theme.wether.length){ %>
+<div class="widget">
+	<h4><%= __('wether') %></h4>
+	<ul class="blogroll list-unstyled">
+	<% for (var i in theme.wether){ %>
+		<li><img src="<%- "http://wttr.in/"+theme.wether[i].city+"_tqp0_transparency=255.png"%>"></img></li>
+	<% } %>
+	</ul>
+</div>
+<% } %>

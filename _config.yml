@@ -49,17 +49,16 @@ links:
   #   icon: "fa fa-linkedin"
 
 widgets:
-- search
-- category
-- tagcloud
-- recent_posts
-- links
+  - search
+  - category
+  - tagcloud
+  - recent_posts
+  - links
 
-rss: 
+rss:
 fancybox: true
 favicon: favicon.png
 duoshuo_shortname:
-
 
 # Analytics (change to yours)
 google_analytics:
@@ -68,6 +67,18 @@ google_analytics:
 baidu_tongji:
   enable: true
   siteid: cb5448498d7169c668b07c2b255d62c1
-
+piwik_analytics:
+  enable: false
+  siteid:
+  username:
 # search
-#swiftype_key: ZP2ZSuHgipSZfRyU8uTR
+#swiftype_key:
+
+# built-in comment system
+comment_js:
+  type: "github"
+  user: "immortal-blog"
+  repo: "immortal-blog.github.io"
+  client_id: "0926fba2ec35893ced81"
+  client_secret: "f4eb7e8722e7eadb82df98401bbd86c4111a107c"
+  count: 3

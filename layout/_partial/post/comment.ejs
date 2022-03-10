@@ -1,35 +1,33 @@
 <% if (page.comment){ %>
-<section id="comment">
-    <h2 class="title"><%= __('comment') %></h2>
-
-    <% if(theme.duoshuo_shortname) { %>
-    <div class="ds-thread" data-thread-key="<%- page.path %>" data-title="<%- page.title %>"
-         data-url="<%- page.permalink %>"></div>
-    <% } else if(theme.disqus_shortname) { %>
-    <div id="disqus_thread" class="ds-thread">
-        <script type="text/javascript">
-            /**
-             * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-             * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-             */
-                /*
-                 var disqus_config = function () {
-                 this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
-                 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-                 };
-                 */
-            (function() { // DON'T EDIT BELOW THIS LINE
-                var d = document, s = d.createElement('script');
-
-                s.src = '//<%- config.disqus_shortname %>.disqus.com/embed.js';
-
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by
-                Disqus.</a></noscript>
-    </div>
+    <section id="comment">
+      <h2 class="title"><%= __('comment') %></h2>
+      <% if (theme.comment_js) { %>  	 
+         <div id="comment-thread"></div>
+         <div id="loading-spin"></div>
+         <script type="text/javascript">
+           getComments({
+               type: "<%= theme.comment_js.type %>" ? "<%= theme.comment_js.type %>" : "github",       
+               user: "<%= theme.comment_js.user %>",
+               repo: "<%= theme.comment_js.repo %>",
+               client_id: "<%= theme.comment_js.client_id %>",
+               client_secret: "<%= theme.comment_js.client_secret %>",
+               no_comment: "<%= __('no_comment') %>",
+               go_to_comment: "<%= __('go_to_comment') %>",
+               no_issue: "<%= __('no_issue') %>",
+               issue_title: "<%= page.title %>",
+               issue_id: "<%= page.issue_id %>",
+               btn_class: "btn btn-primary",
+               comments_target: "#comment-thread",
+               loading_target: "#loading_spin"
+               });
+         </script>
+      <% } else if(theme.duoshuo_shortname) { %>
+           <div class="ds-thread" data-thread-key="<%- page.path %>" data-title="<%- page.title %>" data-url="<%- page.permalink %>"></div>  
+      <% } else if(config.disqus_shortname) { %>
+           <div id="disqus_thread">
+         <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+           </div>
+      <% } %>
+    </section>
     <% } %>
-</section>
-<% }%>
+    

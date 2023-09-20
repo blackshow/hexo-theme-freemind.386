@@ -8,15 +8,3 @@
   ga('send', 'pageview');
 </script>
 <% } %>
-
-<% if (theme.baidu_tongji.enable){ %>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "//hm.baidu.com/hm.js?<%= theme.baidu_tongji.siteid %>";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-<% } %>

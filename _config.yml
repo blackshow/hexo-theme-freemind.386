@@ -65,9 +65,6 @@ duoshuo_shortname:
 google_analytics:
   enable: true
   siteid: UA-70812759-1
-baidu_tongji:
-  enable: true
-  siteid: cb5448498d7169c668b07c2b255d62c1
 
 # search
 #swiftype_key: ZP2ZSuHgipSZfRyU8uTR
